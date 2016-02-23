@@ -1,0 +1,189 @@
+# depslib dependency file v1.0
+1414469303 source:/home/hostelix/TANKERS/main.cpp
+	"include/BMK_Juego.h"
+
+1414526597 /home/hostelix/TANKERS/include/BMK_Juego.h
+	"BMK_Librerias.h"
+
+1414520023 /home/hostelix/TANKERS/include/BMK_Constantes.h
+
+1414461856 /home/hostelix/TANKERS/include/BMK_Mapa.h
+	"BMK_Sprites.h"
+	<SDL/SDL.h>
+	"BMK_Constantes.h"
+
+1414461211 /home/hostelix/TANKERS/include/BMK_Sprites.h
+	"BMK_Imagen.h"
+
+1414461150 /home/hostelix/TANKERS/include/BMK_Imagen.h
+	<SDL/SDL.h>
+
+1414525826 /home/hostelix/TANKERS/include/BMK_Jugador.h
+	"BMK_Librerias.h"
+
+1413838115 /home/hostelix/TANKERS/include/BMK_Sonido.h
+	<SDL/SDL_mixer.h>
+
+1414461134 /home/hostelix/TANKERS/include/BMK_ModuloSDL.h
+	"BMK_Mensajes.h"
+	"BMK_Constantes.h"
+	<SDL/SDL_mixer.h>
+
+1414006648 /home/hostelix/TANKERS/include/BMK_Mensajes.h
+
+1414461127 /home/hostelix/TANKERS/include/BMK_Librerias.h
+	<SDL/SDL.h>
+	<stdlib.h>
+	<stdio.h>
+	"BMK_ModuloSDL.h"
+	"BMK_Librerias.h"
+	"BMK_Mapa.h"
+	"BMK_Sprites.h"
+	"BMK_Juego.h"
+	"BMK_Sonido.h"
+	"BMK_Mensajes.h"
+	"BMK_Jugador.h"
+	"BMK_Imagen.h"
+	"BMK_Constantes.h"
+
+1414469303 source:/home/danzt/Escritorio/TANKERS/main.cpp
+	"include/BMK_Juego.h"
+
+1414526597 /home/danzt/Escritorio/TANKERS/include/BMK_Juego.h
+	"BMK_Librerias.h"
+
+1414461127 /home/danzt/Escritorio/TANKERS/include/BMK_Librerias.h
+	<SDL/SDL.h>
+	<stdlib.h>
+	<stdio.h>
+	"BMK_ModuloSDL.h"
+	"BMK_Librerias.h"
+	"BMK_Mapa.h"
+	"BMK_Sprites.h"
+	"BMK_Juego.h"
+	"BMK_Sonido.h"
+	"BMK_Mensajes.h"
+	"BMK_Jugador.h"
+	"BMK_Imagen.h"
+	"BMK_Constantes.h"
+
+1414461134 /home/danzt/Escritorio/TANKERS/include/BMK_ModuloSDL.h
+	"BMK_Mensajes.h"
+	"BMK_Constantes.h"
+	<SDL/SDL_mixer.h>
+
+1414006648 /home/danzt/Escritorio/TANKERS/include/BMK_Mensajes.h
+
+1414589541 /home/danzt/Escritorio/TANKERS/include/BMK_Constantes.h
+
+1414461856 /home/danzt/Escritorio/TANKERS/include/BMK_Mapa.h
+	"BMK_Sprites.h"
+	<SDL/SDL.h>
+	"BMK_Constantes.h"
+
+1414461211 /home/danzt/Escritorio/TANKERS/include/BMK_Sprites.h
+	"BMK_Imagen.h"
+
+1414461150 /home/danzt/Escritorio/TANKERS/include/BMK_Imagen.h
+	<SDL/SDL.h>
+
+1413838115 /home/danzt/Escritorio/TANKERS/include/BMK_Sonido.h
+	<SDL/SDL_mixer.h>
+
+1414525826 /home/danzt/Escritorio/TANKERS/include/BMK_Jugador.h
+	"BMK_Librerias.h"
+
+1414469303 source:/home/danzt/TANKERS/main.cpp
+	"include/BMK_Juego.h"
+
+1414594905 /home/danzt/TANKERS/include/BMK_Juego.h
+	"BMK_Librerias.h"
+
+1414461127 /home/danzt/TANKERS/include/BMK_Librerias.h
+	<SDL/SDL.h>
+	<stdlib.h>
+	<stdio.h>
+	"BMK_ModuloSDL.h"
+	"BMK_Librerias.h"
+	"BMK_Mapa.h"
+	"BMK_Sprites.h"
+	"BMK_Juego.h"
+	"BMK_Sonido.h"
+	"BMK_Mensajes.h"
+	"BMK_Jugador.h"
+	"BMK_Imagen.h"
+	"BMK_Constantes.h"
+
+1414461134 /home/danzt/TANKERS/include/BMK_ModuloSDL.h
+	"BMK_Mensajes.h"
+	"BMK_Constantes.h"
+	<SDL/SDL_mixer.h>
+
+1414006648 /home/danzt/TANKERS/include/BMK_Mensajes.h
+
+1414595575 /home/danzt/TANKERS/include/BMK_Constantes.h
+
+1414461856 /home/danzt/TANKERS/include/BMK_Mapa.h
+	"BMK_Sprites.h"
+	<SDL/SDL.h>
+	"BMK_Constantes.h"
+
+1414461211 /home/danzt/TANKERS/include/BMK_Sprites.h
+	"BMK_Imagen.h"
+
+1414461150 /home/danzt/TANKERS/include/BMK_Imagen.h
+	<SDL/SDL.h>
+
+1413838115 /home/danzt/TANKERS/include/BMK_Sonido.h
+	<SDL/SDL_mixer.h>
+
+1414595552 /home/danzt/TANKERS/include/BMK_Jugador.h
+	"BMK_Librerias.h"
+
+1414469303 source:/home/hostelix/Escritorio/TANKERS/main.cpp
+	"include/BMK_Juego.h"
+
+1414594905 /home/hostelix/Escritorio/TANKERS/include/BMK_Juego.h
+	"BMK_Librerias.h"
+
+1414461127 /home/hostelix/Escritorio/TANKERS/include/BMK_Librerias.h
+	<SDL/SDL.h>
+	<stdlib.h>
+	<stdio.h>
+	"BMK_ModuloSDL.h"
+	"BMK_Librerias.h"
+	"BMK_Mapa.h"
+	"BMK_Sprites.h"
+	"BMK_Juego.h"
+	"BMK_Sonido.h"
+	"BMK_Mensajes.h"
+	"BMK_Jugador.h"
+	"BMK_Imagen.h"
+	"BMK_Constantes.h"
+
+1414461134 /home/hostelix/Escritorio/TANKERS/include/BMK_ModuloSDL.h
+	"BMK_Mensajes.h"
+	"BMK_Constantes.h"
+	<SDL/SDL_mixer.h>
+
+1414006648 /home/hostelix/Escritorio/TANKERS/include/BMK_Mensajes.h
+
+1456200469 /home/hostelix/Escritorio/TANKERS/include/BMK_Constantes.h
+
+1414461856 /home/hostelix/Escritorio/TANKERS/include/BMK_Mapa.h
+	"BMK_Sprites.h"
+	<SDL/SDL.h>
+	"BMK_Constantes.h"
+
+1414461211 /home/hostelix/Escritorio/TANKERS/include/BMK_Sprites.h
+	"BMK_Imagen.h"
+
+1414461150 /home/hostelix/Escritorio/TANKERS/include/BMK_Imagen.h
+	<SDL/SDL.h>
+
+1413838115 /home/hostelix/Escritorio/TANKERS/include/BMK_Sonido.h
+	<SDL/SDL_mixer.h>
+
+1414595552 /home/hostelix/Escritorio/TANKERS/include/BMK_Jugador.h
+	"BMK_Librerias.h"
+

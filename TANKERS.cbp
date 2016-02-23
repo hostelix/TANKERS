@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TANKERS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TANKERS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../usr/local/lib/libSDL_mixer.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TANKERS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+		</Linker>
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/BMK_Constantes.h" />
+		<Unit filename="include/BMK_Imagen.h" />
+		<Unit filename="include/BMK_Juego.h" />
+		<Unit filename="include/BMK_Jugador.h" />
+		<Unit filename="include/BMK_Librerias.h" />
+		<Unit filename="include/BMK_Mapa.h" />
+		<Unit filename="include/BMK_Mensajes.h" />
+		<Unit filename="include/BMK_ModuloSDL.h" />
+		<Unit filename="include/BMK_Sonido.h" />
+		<Unit filename="include/BMK_Sprites.h" />
+		<Unit filename="include/bmk.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
