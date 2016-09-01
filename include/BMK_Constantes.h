@@ -70,7 +70,7 @@
 
 
 //Path sonidos
-#define PATH_AUDIO_FONDO "/home/danzt/TANKERS/musica/fondo.wav"
+#define PATH_AUDIO_FONDO "fondo.mp3"
 
 //Numero maximo de sprites del jugador
 #define MAX_SPRITE_JUGADOR 4
