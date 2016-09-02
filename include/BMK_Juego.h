@@ -103,7 +103,7 @@ void BMK_Juego::cargar_sprites(){
     this->jugador->dibujar(this->pantalla_principal);
 
     for(int i=3;i<10;i++){
-        this->mapa->set_objeto_mapa(4,i+1,BLOQUE,MAPA_JUEGO);
+        this->mapa->set_objeto_mapa(i+1*2,i+1,BLOQUE,MAPA_JUEGO);
         this->mapa->set_objeto_mapa(6,i+1,AGUA,MAPA_JUEGO);
         this->mapa->set_objeto_mapa(6,i*i,AGUA,MAPA_JUEGO);
         this->mapa->set_objeto_mapa(i+1,9,BLOQUE,MAPA_JUEGO);
