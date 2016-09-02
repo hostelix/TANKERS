@@ -121,6 +121,7 @@ void BMK_Juego::renderizar(){
     this->jugador->dibujar_balas(this->pantalla_principal);
     this->jugador->mover_balas(this->mapa);
     SDL_Flip(this->pantalla_principal);
+    SDL_Delay(40); //retardo en la renderizacion
 }
 
 

@@ -125,6 +125,7 @@ void BMK_Sprites::dibujar(SDL_Surface *pantalla){
 
 	dest.x = this->x;
 	dest.y = this->y;
+
 	SDL_BlitSurface(sprites[this->actual].get_imagen(), NULL, pantalla, &dest);
 }
 

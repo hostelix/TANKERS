@@ -19,7 +19,7 @@ class BMK_Jugador {
         bool cambia_sprite;
 
         //Atributos para el disparo
-        tipo_bala *disparos = (tipo_bala *)(malloc(sizeof(tipo_bala)*MAX_DISPAROS));
+        tipo_bala *disparos;
         BMK_Sprites *bala;
         int num_balas;
 
@@ -71,6 +71,9 @@ BMK_Jugador::BMK_Jugador(int x, int y){
     this->num_vidas = 4;
     this->salio = false;
     this->bala = new BMK_Sprites(1);
+
+    this->disparos = new tipo_bala[MAX_DISPAROS];
+
     for(int i=0 ; i<MAX_DISPAROS;i++){
         this->disparos[i].x = this->disparos[i].y = 0;
         this->disparos[i].activa = false;
@@ -255,9 +258,8 @@ void BMK_Jugador::set_imagen_bala(const char *path){
 }
 
 bool BMK_Jugador::disparar(){
-    bool retorno =false;
 
-
+    bool retorno = false;
 
     switch(this->cuerpo->get_posicion_frame_actual()){
         case ARRIBA:
@@ -292,15 +294,9 @@ bool BMK_Jugador::disparar(){
             retorno = true;
         break;
     }
+    
     this->num_balas++;
-    /*if(this->num_balas < MAX_DISPAROS){
-            if(!this->disparos[this->num_balas].activa){
-
-
-                printf("numero de balas %d\n",this->num_balas);
-            }
-    }*/
-
+    
     return retorno;
 
 }
@@ -308,6 +304,7 @@ bool BMK_Jugador::disparar(){
 void BMK_Jugador::mover_balas(BMK_Mapa *mapa){
     for (int i=0 ; i<MAX_DISPAROS ; i++) {
         if(this->disparos[i].activa) {
+            
             //printf("Moviendo bala %d,%d\n",this->disparos[i].x,this->disparos[i].y);
 
             switch(this->disparos[i].direccion){
