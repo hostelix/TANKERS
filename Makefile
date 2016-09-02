@@ -1,4 +1,4 @@
 CC=g++
-CFLAGS=-L/usr/lib -lSDL -lpthread
+CFLAGS=-L/usr/lib -lSDL -lpthread -lSDL_mixer
 all:
-	$(CC) main.cpp -o bin/main -I/usr/local/include $(CFLAGS) -lSDL_mixer
+	$(CC) main.cpp -o bin/main -I/usr/local/include $(CFLAGS) 
